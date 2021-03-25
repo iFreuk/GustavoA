@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T16:10:41.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="t8DXx5Jkn5eYg5gmLStx" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T16:14:22.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_CxTv-W4bBa_aExSa3a7" version="14.5.1" type="github">
   <diagram id="Rg3e9slVh4RdcCP7ZYgF" name="Page-1">
     <mxGraphModel dx="1293" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,13 +73,88 @@
             <mxPoint x="530" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-17" value="Cod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-17" value="Codificar las funcionalidades lógicas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PnlgcQSMIC5XuG6z7Pq7-19" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-13" target="PnlgcQSMIC5XuG6z7Pq7-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="310" as="sourcePoint" />
             <mxPoint x="270" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-20" value="Codificar la interfaz gráfica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-21" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-14" target="PnlgcQSMIC5XuG6z7Pq7-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-22" value="Integrar los servicios con la interfaz gráfica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-17" target="PnlgcQSMIC5XuG6z7Pq7-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="sourcePoint" />
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-24" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-20" target="PnlgcQSMIC5XuG6z7Pq7-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="440" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-25" value="Probrar integridad en el sistema&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-26" value="Probar estrés del sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-22" target="PnlgcQSMIC5XuG6z7Pq7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="430" as="sourcePoint" />
+            <mxPoint x="160" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-28" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-22" target="PnlgcQSMIC5XuG6z7Pq7-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-29" value="Generar reporte de aprobación del sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-30" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-25" target="PnlgcQSMIC5XuG6z7Pq7-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="570" as="sourcePoint" />
+            <mxPoint x="270" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-31" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-26" target="PnlgcQSMIC5XuG6z7Pq7-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="570" as="sourcePoint" />
+            <mxPoint x="270" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-32" value="Instalar software" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="640" as="sourcePoint" />
+            <mxPoint x="230" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-34" value="Capacitar usuarios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnlgcQSMIC5XuG6z7Pq7-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PnlgcQSMIC5XuG6z7Pq7-32" target="PnlgcQSMIC5XuG6z7Pq7-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="710" as="sourcePoint" />
+            <mxPoint x="400" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
